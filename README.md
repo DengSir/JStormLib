@@ -8,6 +8,7 @@ Currently, just only working on windows.
 #### You need to compile StormLib(ReleaseAS|x64) first.
 #### You also need to install node-gyp(https://github.com/nodejs/node-gyp)
 #### install Nan(https://github.com/nodejs/nan)
+
 ````bash
 npm install
 ````

@@ -1,11 +1,16 @@
 {
   "name": "stormlib",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "NodeJS wrapper for StormLib",
   "main": "lib/JStormLib.js",
   "scripts": {
     "build-stormlib": "node ./scripts/build",
-    "dev": "node-gyp build"
+    "dev": "node-gyp build",
+    "prepublish": "node ./scripts/prepublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuantau/JStormLib.git"
   },
   "keywords": [
     "StormLib",
@@ -14,6 +19,7 @@
   "author": "yuantao",
   "license": "ISC",
   "devDependencies": {
+    "fs-extra": "^7.0.0",
     "nan": "^2.11.0",
     "npmlog": "^4.1.2"
   }
