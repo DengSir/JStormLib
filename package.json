@@ -1,0 +1,19 @@
+{
+  "name": "stormlib",
+  "version": "1.0.0",
+  "description": "NodeJS wrapper for StormLib",
+  "main": "lib/JStormLib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "StormLib",
+    "mpq"
+  ],
+  "author": "yuantao",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nan": "^2.11.0"
+  }
+}
