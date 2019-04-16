@@ -2,13 +2,13 @@
   "targets": [
     {
       "target_name": "StormLib",
-      "sources": [ 
-        "src/Entry.cc", 
+      "sources": [
+        "src/Entry.cc",
         "src/openArchive.cc",
         "src/CreateError.cc",
         "src/StormArchive.cc"
       ],
-      "libraries": [ "<(module_root_dir)/StormLib/bin/StormLib/x64/ReleaseAS/StormLibRAS.lib" ],
+      "dependencies": ["stormlib.gyp:StormLibRAS"],
       "include_dirs" : [
         "<!(node -e \"require('nan')\")"
       ]

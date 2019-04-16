@@ -1,7 +1,11 @@
-StormLib/
-src/
+StormLib/storm_dll/
+StormLib/stormlib_dll/
+StormLib/StormLib.xcodeproj/
+StormLib/test/
+StormLib/StormLib_*
+StormLib/makefile*
+
 scripts/
-binding.gyp
 README.md.bak
 
 .vscode

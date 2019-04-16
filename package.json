@@ -5,8 +5,7 @@
   "main": "lib/JStormLib.js",
   "scripts": {
     "build-stormlib": "node ./scripts/build",
-    "dev": "node-gyp build",
-    "prepublish": "node ./scripts/prepublish"
+    "dev": "node-gyp build"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,9 @@
   "license": "ISC",
   "devDependencies": {
     "fs-extra": "^7.0.0",
-    "nan": "^2.11.0",
     "npmlog": "^4.1.2"
+  },
+  "dependencies": {
+    "nan": "^2.13.2"
   }
 }
